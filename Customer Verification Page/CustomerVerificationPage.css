@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(to bottom right, #AEE1E1, #D3E0DC, #ECE2E1, #fcd1d1);
+}
+header {
+  text-align: center;
+  font-weight: bolder;
+  color: gray;
+  font-size: 30px;
+  font-family: 'Brush Script MT', cursive;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+}
+label {
+  font-size: 18px;
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #2CCED2;
+  color: white;
+  font-size: 14px;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  float: right;
+  margin: 0 100px 50px 0;
+}
+
+input[type=submit]:hover {
+  background-color: #AEE1E1;
+}
+.container {
+  display: block;
+  cursor: pointer;
+}
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 5px;
+  background-color: darkgray;
+  margin: 6px 0;
+}
+.form-container {
+  width: 100%;
+}
+.container-1 {
+  margin-top: 3em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  padding-top: 2%;
+}
+.header-form {
+  text-align: left;
+  font-weight: bolder;
+  color: gray;
+  font-size: 20px;
+  font-family: 'Brush Script MT', cursive;
+  padding-left:  5%;
+  margin-bottom: 5%;
+}
+.list-area {
+  width: 70%;
+  margin: 5% 15% 5% 15%;
+}
+.col-20 {
+  float: left;
+  width: 20%;
+  margin-left: 50px;
+}
+.col-60 {
+  float: left;
+  width: 60%;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
