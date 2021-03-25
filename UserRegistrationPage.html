@@ -6,7 +6,7 @@
   <body>
     <div class="container">
       <header >User Registration Page</header><br />
-      <form action="index.html" method="post">
+      <form class="form-container" action="index.html" method="post">
           <div class="row">
             <div class="col-25">
               <label>Full Name</label>
@@ -49,9 +49,13 @@
           <div class="col-60">
             <input type="text" id="Cpassword" name="Cpassword" placeholder="Must be atleast 8 characters">
           </div>
-        </div><br />
+        </div><br /><br />
         <div class="row">
-          <input type="submit" value="Register">
+          <input id="btnRegister" type="submit" value="Register">
+          <input id="btnCancel" type="submit" value="Cancel">
+        </div>
+        <div class="row">
+          <label id="lblExAcc">Already have an account?</label>
         </div>
       </form>
     </div>

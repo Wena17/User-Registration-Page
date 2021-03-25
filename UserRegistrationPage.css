@@ -4,6 +4,7 @@ body {
 header {
   text-align: center;
   font-weight: bolder;
+  color: gray;
   font-size: 30px;
   font-family: 'Brush Script MT', cursive;
   margin-right: auto;
@@ -32,7 +33,7 @@ input[type=submit] {
   border-radius: 5px;
   cursor: pointer;
   float: right;
-  margin-right: 10px;
+  margin-right: 100px;
 }
 
 input[type=submit]:hover {
@@ -45,23 +46,33 @@ input[type=submit]:hover {
   width: 40%;
   border-radius: 15px;
   background-color: #f2f2f2;
+  padding-top: 2%;
+}
+.form-container {
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  border-radius: 15px;
+  background-color: #f2f2f2;
   padding: 2%;
+  padding-left: 8%;
 }
 .col-25 {
   float: left;
   width: 25%;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 .col-30 {
   float: left;
   width: 30%;
-  margin-top: 15px;
+  margin-top: 20px;
   margin-right: 50px;
 }
 .col-60 {
   float: left;
   width: 60%;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 /* Clear floats after the columns */
